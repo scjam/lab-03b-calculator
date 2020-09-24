@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    background-color: white;
+}
+
+main {
+    width: 400px;
+    height: 480px;
+    background-color: mintcream;
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+    border-radius: 20px;
+    border: 3px solid navy;
+    text-align: left;
+    padding-left: 20px;
+}
+
+input {
+    width: 100px;
+}
+
+button, #addOutput, #subOutput, #mulOutput, #divOutput {
+    display: inline;
+}
+
+#addOutput {
+    margin-left: 20px;
+    font-size: 115%;
+}
+
+#subOutput {
+    margin-left: 20px;
+    font-size: 115%;
+}
+
+#mulOutput {
+    margin-left: 20px;
+    font-size: 115%;
+}
+
+#divOutput {
+    margin-left: 20px;
+    font-size: 115%;
+}
