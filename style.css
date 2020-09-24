@@ -7,8 +7,8 @@ html, body {
 }
 
 main {
-    width: 400px;
-    height: 480px;
+    width: 410px;
+    height: 180px;
     background-color: mintcream;
     font-family: 'Courier New', Courier, monospace;
     color: navy;
@@ -22,8 +22,21 @@ input {
     width: 80px;
 }
 
-button, #addOutput, #subOutput, #mulOutput, #divOutput {
+select {
+    font-size: 120%;
+    margin-right: 10px;
+}
+
+button, #addOutput, #subOutput, #mulOutput, #divOutput, #output {
     display: inline;
+}
+
+#output {
+    margin-left: 20px;
+    font-size: 115%;
+    font-weight: bold;
+    border: 2px solid palevioletred;
+    padding: 6px;
 }
 
 #addOutput {

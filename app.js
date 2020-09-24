@@ -35,7 +35,7 @@ button.addEventListener('click', () => {
     console.log("click");
 })
 
-const addOne = document.getElementById('inputAdd1')
+/* const addOne = document.getElementById('inputAdd1')
 const addTwo = document.getElementById('inputAdd2')
 const addButton = document.getElementById('add')
 const addAnswer = document.getElementById('addOutput')
@@ -85,4 +85,4 @@ divButton.addEventListener('click', () => {
 
     divAnswer.textContent = quotient
     console.log("click");
-})
+}) */
