@@ -1,3 +1,40 @@
+const inputOne = document.getElementById('input1')
+const inputTwo = document.getElementById('input2')
+const button = document.getElementById('equals')
+const answer = document.getElementById('output')
+const dropdown = document.getElementById('operations') 
+//when id value === then execute this action
+
+button.addEventListener('click', () => {
+    
+    if (dropdown.value === "add") {
+        
+        const calcOutput = Number(inputOne.value) + Number(inputTwo.value);
+
+        answer.textContent = calcOutput
+    
+    } else if (dropdown.value === "sub") {
+        
+        const calcOutput = Number(inputOne.value) - Number(inputTwo.value);
+
+        answer.textContent = calcOutput
+    
+    } else if (dropdown.value === "mlt") {
+        
+        const calcOutput = Number(inputOne.value) * Number(inputTwo.value);
+
+        answer.textContent = calcOutput
+    
+    } else if (dropdown.value === "dvd") {
+        
+    const calcOutput = Number(inputOne.value) / Number(inputTwo.value);
+
+    answer.textContent = calcOutput
+}
+
+    console.log("click");
+})
+
 const addOne = document.getElementById('inputAdd1')
 const addTwo = document.getElementById('inputAdd2')
 const addButton = document.getElementById('add')

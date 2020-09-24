@@ -19,7 +19,7 @@ main {
 }
 
 input {
-    width: 100px;
+    width: 80px;
 }
 
 button, #addOutput, #subOutput, #mulOutput, #divOutput {
