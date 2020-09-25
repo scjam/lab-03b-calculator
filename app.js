@@ -6,4 +6,3 @@
 import { handleClick } from './clickHandlers.js'
 const button = document.getElementById('equals')
 button.addEventListener('click', (handleClick));
-// import { add, subtract, multiply, divide } from '../utils.js';

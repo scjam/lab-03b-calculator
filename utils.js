@@ -1,15 +1,17 @@
-export function add('inputOne', 'inputTwo') {
+//import { inputOne, inputTwo } from './clickHandlers.js';
+
+export const add(inputOne, inputTwo) {
     return Number(inputOne.value) + Number(inputTwo.value)
 }
 
-export function subtract('inputOne', 'inputTwo') {
+export const subtract(inputOne, inputTwo) {
     return Number(inputOne.value) - Number(inputTwo.value)
 }
 
-export function multiply('inputOne', 'inputTwo') {
+export const multiply(inputOne, inputTwo) {
     return Number(inputOne.value) * Number(inputTwo.value)
 }
 
-export function divide('inputOne', 'inputTwo') {
+export const divide(inputOne, inputTwo) {
     return Number(inputOne.value) / Number(inputTwo.value)
 }
