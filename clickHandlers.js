@@ -32,9 +32,9 @@ if (dropdown.value === "add") {
 
 } else if (dropdown.value === "divide") {
     
-const calcOutput = Number(inputOne.value) / Number(inputTwo.value);
+    const calcOutput = Number(inputOne.value) / Number(inputTwo.value);
 
-answer.textContent = calcOutput
-}
+    answer.textContent = calcOutput
+    }
 
 };
